@@ -10,7 +10,7 @@
 		B524098721934FF200385AA2 /* ReactNativeNFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524098421934FF100385AA2 /* ReactNativeNFC.swift */; };
 		B524098821934FF200385AA2 /* NFCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524098521934FF200385AA2 /* NFCHelper.swift */; };
 		B582506D2194A145001BAC69 /* ReactNativeNFC-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = B524098221934FF100385AA2 /* ReactNativeNFC-Bridging-Header.h */; };
-		B58250792194A601001BAC69 /* ReactNativeNFCBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = B524098621934FF200385AA2 /* ReactNativeNFCBridge.mm */; };
+		B58250792194A601001BAC69 /* ReactNativeNFCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B524098621934FF200385AA2 /* ReactNativeNFCBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 		B524098221934FF100385AA2 /* ReactNativeNFC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeNFC-Bridging-Header.h"; sourceTree = "<group>"; };
 		B524098421934FF100385AA2 /* ReactNativeNFC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactNativeNFC.swift; sourceTree = "<group>"; };
 		B524098521934FF200385AA2 /* NFCHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCHelper.swift; sourceTree = "<group>"; };
-		B524098621934FF200385AA2 /* ReactNativeNFCBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeNFCBridge.mm; sourceTree = "<group>"; };
+		B524098621934FF200385AA2 /* ReactNativeNFCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeNFCBridge.m; sourceTree = "<group>"; };
 		B582506F2194A152001BAC69 /* libcxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcxxreact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58250712194A384001BAC69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B58250732194A45A001BAC69 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 			children = (
 				B524098521934FF200385AA2 /* NFCHelper.swift */,
 				B524098421934FF100385AA2 /* ReactNativeNFC.swift */,
-				B524098621934FF200385AA2 /* ReactNativeNFCBridge.mm */,
+				B524098621934FF200385AA2 /* ReactNativeNFCBridge.m */,
 				B524098221934FF100385AA2 /* ReactNativeNFC-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				B582506E2194A152001BAC69 /* Frameworks */,
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58250792194A601001BAC69 /* ReactNativeNFCBridge.mm in Sources */,
+				B58250792194A601001BAC69 /* ReactNativeNFCBridge.m in Sources */,
 				B582506D2194A145001BAC69 /* ReactNativeNFC-Bridging-Header.h in Sources */,
 				B524098721934FF200385AA2 /* ReactNativeNFC.swift in Sources */,
 				B524098821934FF200385AA2 /* NFCHelper.swift in Sources */,
